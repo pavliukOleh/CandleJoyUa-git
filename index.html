@@ -4,13 +4,155 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>CandleJoy.ua</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/main.css" />
   </head>
   <body>
-    
+    <!-- <div class="bonus">
+      <p class="bonus__text">Безкоштовна доставка від 1500 грн.</p>
+    </div> -->
+    <header>
+      <div class="container header">
+        <div class="row">
+            <div class="col-4 logo__container">
+              <a href="/index.html">
+                <img class="logo" src="./img/logo.png" alt="logo">
+              </a>
+            </div>
+            <div class="col-4 nav__position">
+              <nav>
+                <ul class="nav nav-underline">
+                  <li class="nav-item">
+                    <a class="nav-link link-dark active" aria-current="page" href="/index.html">Головна</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link link-dark" href="#">Каталог</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link link-dark" href="#">Доставка</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link link-dark" href="#" >Контакти</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-4 inst__container">
+              <a href="https://www.instagram.com/candle.joy.ua/">
+                <img class="instagram" src="/img/Vector_inst.svg" alt="inst">
+              </a>
+            </div>
+          </div>
+        </div>
+    </header>
+    <main>
+      <!-- hero -->
+      <div class="container">
+        <div class="row">
+            <div class="col-12 hero">
+              <button type="button" class="btn text-uppercase btn-success btn-lg btn__myScss" data-bs-toggle="modal" data-bs-target="#exampleModal">Замовити</button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+            </div>
+        </div>
+      </div>
+      <!-- hero -->
+      <!--Catalog-->
+        <div class="container">
+          <div class="row">
+            <div class="col-12 catalog__padding">
+              <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/img/IMG_1953 1hero.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Lemon paund cake</h5>
+                      <p>Солодкий аромат лимонного пирога.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/IMG_1953 1hero.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Santal & coconut</h5>
+                      <p>Ніжний аромат санталу та кокосу.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/IMG_1953 1hero.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>White tea</h5>
+                      <p>Легкий та свіжий аромат білого чаю.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Catalog-->
+        <footer>
+          <div class="container footer">
+            <div class="row">
+              <div class="col-4 logo__container">
+                <a href="/index.html">
+                  <img class="logo" src="./img/logo.png" alt="logo">
+                </a>
+              </div>
+              <div class="col-4 footer__contacts">
+                <a href="tel:+380635888911" class="link-secondary">+38 (063) 588-89-11</a>
+                <a href="mailto:example@gmail.com" class="link-secondary">example@gmail.com</a>
+              </div>
+              <div class="col-4 inst__container">
+                <a href="https://www.instagram.com/candle.joy.ua/">
+                  <img class="instagram" src="/img/Vector_inst.svg" alt="inst">
+                </a>
+              </div>
+            </div>
+          </div>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

@@ -1,3 +1,13 @@
 // -----------------------------------------------------------------------------
-// This file contains all styles related to the footer of the site/application.
+// This file contains all styles related to the footer.
 // -----------------------------------------------------------------------------
+.footer{
+    height:120px;
+    background-color: $main__bg--color;
+}
+.footer__contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

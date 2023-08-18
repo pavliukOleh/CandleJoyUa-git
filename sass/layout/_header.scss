@@ -1,6 +1,31 @@
 // -----------------------------------------------------------------------------
-// This file contains all styles related to the header of the site/application.
+// This file contains all styles related to the header.
 // -----------------------------------------------------------------------------
   /*header*/
+  .header{
+    background-color: $main__bg--color;
+    height: 115px;
+  }
+  .logo__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo{
+    width: 120px;
+  }
 
+  .inst__container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  .instagram{
+    width: 30px;
+  }
+  .nav__position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   /*header*/
