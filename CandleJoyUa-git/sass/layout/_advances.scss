@@ -1,0 +1,22 @@
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #000;
+}
+.advances__block{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.advances__block--flex{
+    display: flex;
+    justify-content: space-around;
+    background-color: $main__bg--color;
+}
+.advances__tittle--text{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}

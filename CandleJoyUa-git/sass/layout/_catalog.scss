@@ -1,0 +1,24 @@
+.catalog__padding{
+    padding-left: 0;
+    padding-right: 0;
+    }
+.container__catalog{
+    height: 400px;
+    background: $main__bg--color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex__row{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px 0px 20px 0px;
+    flex-wrap: wrap
+}
